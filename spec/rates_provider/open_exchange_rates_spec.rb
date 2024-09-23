@@ -52,7 +52,7 @@ class Money
           let(:response_body) { File.read('./spec/fixtures/historical-2010-10-01.json') }
 
           it 'format response similar to the full-month/time-series response' do
-            expect(subject.keys =~ ['base', 'rates', 'start_date', 'end_date'])
+            expect(subject.keys == ['base', 'rates', 'start_date', 'end_date'])
           end
 
           it 'return rates only for given date' do
