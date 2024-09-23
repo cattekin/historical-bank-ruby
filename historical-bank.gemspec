@@ -47,7 +47,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'rspec',      '~> 3.5'
   s.add_development_dependency 'pry-byebug', '~> 3.4'
   s.add_development_dependency 'rubocop',    '~> 0.52'
-  s.add_development_dependency 'rack-test',  '~> 0.6'
+  s.add_development_dependency 'rack-test',  '~> 2.0'
   s.add_development_dependency 'webmock',    '~> 2.3'
   s.add_development_dependency 'faker',      '~> 3.0'
   s.add_development_dependency 'timecop',    '~> 0.8'
