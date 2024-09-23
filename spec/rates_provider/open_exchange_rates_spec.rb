@@ -91,7 +91,7 @@ class Money
         subject { provider.fetch_rates(date) }
 
         context 'when date is before 1999' do
-          let(:date) { Faker::Date.between(Date.new(1900, 1, 1), Date.new(1998, 12, 31)) }
+          let(:date) { Faker::Date.between(from: Date.new(1900, 1, 1), to: Date.new(1998, 12, 31)) }
           let(:status) { 200 }
           let(:response_body) { '' }
 
