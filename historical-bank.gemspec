@@ -38,7 +38,7 @@ Gem::Specification.new do |s|
 
   s.require_path = 'lib'
 
-  s.required_ruby_version = '>= 2.0.0'
+  s.required_ruby_version = '>= 3.1.0'
 
   s.add_runtime_dependency 'money',    '~> 6.7'
   s.add_runtime_dependency 'httparty', '~> 0.14'
